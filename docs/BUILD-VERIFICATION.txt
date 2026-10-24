@@ -1,0 +1,57 @@
+Дневник молодого ученого 1.0.0 — протокол подготовки исходников
+Дата: 2026-10-22
+Среда проверки: Linux x64, .NET SDK 8.0.426.
+Цель приложения: net8.0-windows, WPF, win-x64.
+Цель Core/SelfTests: net8.0.
+
+1. dotnet restore YoungScientistDiary.sln --locked-mode
+   УСПЕШНО, exit 0.
+   Дополнительно повторён после автономной публикации: exit 0.
+   Core lock не получает глобальный win-x64; RID задан только в App.csproj.
+
+2. dotnet build YoungScientistDiary.sln -c Release --no-restore
+   УСПЕШНО, exit 0.
+   0 Warning(s), 0 Error(s).
+   Включает проект WPF, Core и SelfTests.
+
+3. dotnet run --project tests/YoungScientistDiary.SelfTests -c Release --no-build
+   УСПЕШНО, exit 0.
+   PASS: SQLite, revisions, managed files, backup and restore
+   PASS: CSV/XLSX and verified statistics
+   PASS: Bibliography imports, CSL formatting and document exports
+   PASS: Project-to-analysis-to-bibliography backup and recovery workflow
+
+   Последняя проверка Storage дополнительно включает два независимых
+   хранилища в общей папке копий, очистку только собственных архивов,
+   подменённое имя чужого ZIP, старый манифест и новый ID после restore.
+
+4. dotnet publish src/YoungScientistDiary.App -c Release --no-restore
+      --self-contained false -o <отдельная папка>
+   УСПЕШНО, exit 0.
+   YoungScientistDiary.exe: PE32+ GUI x86-64, MS Windows.
+   e_sqlite3.dll: PE32+ DLL x86-64, MS Windows.
+
+5. dotnet publish src/YoungScientistDiary.App -c Release
+      --self-contained true -p:RestoreLockedMode=true -o <отдельная папка>
+   УСПЕШНО, exit 0.
+   Runtime target: .NETCoreApp,Version=v8.0/win-x64.
+   Microsoft.NETCore.App.Runtime.win-x64 8.0.32.
+   Microsoft.WindowsDesktop.App.Runtime.win-x64 8.0.32.
+   Core packages.lock.json не изменился.
+
+6. scripts/Copy-RuntimeNotices.ps1
+   УСПЕШНО при запуске PowerShell 7.4.21 на автономной публикации.
+   Копирование из фактически разрешённых runtime-пакетов, SHA-256 проверены.
+   Заведомо несовпадающая версия правильно завершилась exit 1.
+   Отдельный запуск в Windows PowerShell 5.1 здесь не выполнялся.
+
+ГРАНИЦЫ ПРОВЕРКИ
+Настоящий WPF-интерфейс на Windows в этой среде не запускался.
+Сценарии .bat предназначены для cmd.exe; проверены выполняемые ими
+dotnet-команды и PowerShell helper, а не нажатие .bat в Windows.
+Не заявлены Windows UI Automation, нагрузочные испытания или проверка
+всех внешних CSL/PDF/Office-программ.
+
+Ручной контрольный сценарий: docs/TESTING.md.
+Состав реализованного и ограничения: README.md, docs/STATISTICS.md,
+docs/CSL-SUPPORT.md, docs/BACKUP.md.

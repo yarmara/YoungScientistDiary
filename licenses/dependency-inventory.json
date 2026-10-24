@@ -1,0 +1,342 @@
+{
+  "application": "YoungScientistDiary",
+  "targetFramework": "net8.0",
+  "packages": [
+    {
+      "package": "ClosedXML",
+      "version": "0.104.2",
+      "direct": true,
+      "license": "MIT",
+      "authors": "Jan Havlíček, Francois Botha, Aleksei Pankratev, Manuel de Leon, Amir Ghezelbash",
+      "copyright": null,
+      "nugetPackageSha512": "gOkSjQ152MhpKmw70cBkJV+FnaZAWzDwM36luRf/7FlWYnNeH++9XYdGTd0Y4KQlVPkKVxy948M5MMsnsGC4GQ==",
+      "files": [
+        {
+          "path": "licenses/ClosedXML-0.104.2/LICENSE",
+          "sha256": "3071658fba9a054edce74e756314ba926fe3ffe5c6622f209d21a0c8f1d2a99e"
+        },
+        {
+          "path": "licenses/ClosedXML-0.104.2/closedxml.nuspec",
+          "sha256": "4f9d4370e43e8ad31b0968ba72e21dd36f2d5ec617bd9c2a5a35195c2cad80d0"
+        }
+      ]
+    },
+    {
+      "package": "ClosedXML.Parser",
+      "version": "1.2.0",
+      "direct": false,
+      "license": "MIT",
+      "authors": "Jan Havlíček",
+      "copyright": null,
+      "nugetPackageSha512": "w+/0tsxABS3lkSH8EUlA7IGme+mq5T/Puf3DbOiTckmSuUpAUO2LK29oXYByCcWkBv6wcRHxgWlQb1lxkwI0Tw==",
+      "files": [
+        {
+          "path": "licenses/ClosedXML.Parser-1.2.0/LICENSE.txt",
+          "sha256": "7133dfd8c1167ffa77389859013ac5bf2d184639f5a291a00d33b0b7d7b84df3"
+        },
+        {
+          "path": "licenses/ClosedXML.Parser-1.2.0/closedxml.parser.nuspec",
+          "sha256": "890f3ae65c1c34777e7db6040daadcb003ab65766c52b38c1176ba2853c426da"
+        }
+      ]
+    },
+    {
+      "package": "DocumentFormat.OpenXml",
+      "version": "3.1.1",
+      "direct": false,
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "nugetPackageSha512": "2z9QBzeTLNNKWM9SaOSDMegfQk/7hDuElOsmF77pKZMkFRP/GHA/W/4yOAQD9kn15N/FsFxHn3QVYkatuZghiA==",
+      "files": [
+        {
+          "path": "licenses/DocumentFormat.OpenXml-3.1.1/LICENSE",
+          "sha256": "ed03ba352313a4ba7019d5bed4bd3218ac17f3e44442a3bb1aaff54dcca9a2bc"
+        },
+        {
+          "path": "licenses/DocumentFormat.OpenXml-3.1.1/NOTICE",
+          "sha256": "17f127daf81a23e7835b735b91c7486fbc99538102942bf1bce8d73e63a65038"
+        },
+        {
+          "path": "licenses/DocumentFormat.OpenXml-3.1.1/documentformat.openxml.nuspec",
+          "sha256": "d6ea629022a51027ddc75c6398a25b65fc90780471db32dfeebcc53b4c2481fa"
+        }
+      ]
+    },
+    {
+      "package": "DocumentFormat.OpenXml.Framework",
+      "version": "3.1.1",
+      "direct": false,
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "nugetPackageSha512": "6APEp/ElZV58S/4v8mf4Ke3ONEDORs64MqdD64Z7wWpcHANB9oovQsGIwtqjnKihulOj7T0a6IxHIHOfMqKOng==",
+      "files": [
+        {
+          "path": "licenses/DocumentFormat.OpenXml.Framework-3.1.1/LICENSE",
+          "sha256": "ed03ba352313a4ba7019d5bed4bd3218ac17f3e44442a3bb1aaff54dcca9a2bc"
+        },
+        {
+          "path": "licenses/DocumentFormat.OpenXml.Framework-3.1.1/NOTICE",
+          "sha256": "17f127daf81a23e7835b735b91c7486fbc99538102942bf1bce8d73e63a65038"
+        },
+        {
+          "path": "licenses/DocumentFormat.OpenXml.Framework-3.1.1/documentformat.openxml.framework.nuspec",
+          "sha256": "d3446279fb7923b5612ae01323c7c062ff534fdc4851c29855d3d5a90b5a00ab"
+        }
+      ]
+    },
+    {
+      "package": "ExcelNumberFormat",
+      "version": "1.1.0",
+      "direct": false,
+      "license": "MIT",
+      "authors": "ExcelNumberFormat developers",
+      "copyright": null,
+      "nugetPackageSha512": "R3BVHPs9O+RkExbZYTGT0+9HLbi8ZrNij1Yziyw6znd3J7P3uoIR07uwTLGOogtz1p6+0sna66eBoXu7tBiVQA==",
+      "files": [
+        {
+          "path": "licenses/ExcelNumberFormat-1.1.0/LICENSE",
+          "sha256": "6650b0063a39e7dced886e53c6dac66fcd909beb8b9abb868452c9b621fa2018"
+        },
+        {
+          "path": "licenses/ExcelNumberFormat-1.1.0/excelnumberformat.nuspec",
+          "sha256": "e5f439f21cb51cd7c6376bd06778e94b601c0b5bf6779d8fbb92113921fb2001"
+        }
+      ]
+    },
+    {
+      "package": "MathNet.Numerics",
+      "version": "5.0.0",
+      "direct": true,
+      "license": "MIT",
+      "authors": "Christoph Ruegg, Marcus Cuda, Jurgen Van Gael",
+      "copyright": "Copyright Math.NET Project",
+      "nugetPackageSha512": "pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "files": [
+        {
+          "path": "licenses/MathNet.Numerics-5.0.0/LICENSE.md",
+          "sha256": "3f87fb0bec6467d87760555e3cb246646a51912b0e97f432c159ba6baf5738f2"
+        },
+        {
+          "path": "licenses/MathNet.Numerics-5.0.0/mathnet.numerics.nuspec",
+          "sha256": "cff33be848d7e0e8066f96fee7980adad223c7eff6f586f1e8221ce07a95467d"
+        }
+      ]
+    },
+    {
+      "package": "Microsoft.Data.Sqlite",
+      "version": "8.0.21",
+      "direct": true,
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "nugetPackageSha512": "LyD+/5j9wkKWzHDw1fCTv6FvZCqzQQpOvz6OGC37u9AwxIdf9OzSQapLI+0mb4n2+MyxSYlGwtm2qM/+tZw9/w==",
+      "files": [
+        {
+          "path": "licenses/Microsoft.Data.Sqlite-8.0.21/LICENSE.txt",
+          "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+        },
+        {
+          "path": "licenses/Microsoft.Data.Sqlite-8.0.21/microsoft.data.sqlite.nuspec",
+          "sha256": "d336ca2390177a3ccde9dfebc98c27aab3008cdc9645cfda2d641907035487ee"
+        }
+      ]
+    },
+    {
+      "package": "Microsoft.Data.Sqlite.Core",
+      "version": "8.0.21",
+      "direct": false,
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "nugetPackageSha512": "a8PghOiQP0QKGkbYl2Vu9IqOrqWDPBCPOSdfglNRbUezis0agAEs+S5dqdoSPSIR9dJavKNxjsDJR2U+bN6HzQ==",
+      "files": [
+        {
+          "path": "licenses/Microsoft.Data.Sqlite.Core-8.0.21/LICENSE.txt",
+          "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+        },
+        {
+          "path": "licenses/Microsoft.Data.Sqlite.Core-8.0.21/microsoft.data.sqlite.core.nuspec",
+          "sha256": "550867f8527767aeda586e83773d359ef3703344f2acb9b06449802bba7d9d94"
+        }
+      ]
+    },
+    {
+      "package": "RBush",
+      "version": "4.0.0",
+      "direct": false,
+      "license": "MIT",
+      "authors": "viceroypenguin",
+      "copyright": "Copyright © 2017-2024 Turning Code, LLC (and others)",
+      "nugetPackageSha512": "j3GeRxxLUQdc+UrZnvythdQxi3bd8ayn87VDjfGXrvfodF550n9wR6SgQvpo+YiAv3GJezsu6lK0l47rRqnbdg==",
+      "files": [
+        {
+          "path": "licenses/RBush-4.0.0/LICENSE",
+          "sha256": "f6bfae3ff6477fbca0c850f115da170516b1c633a98619ea5dcc6720dcdcb288"
+        },
+        {
+          "path": "licenses/RBush-4.0.0/rbush.nuspec",
+          "sha256": "0126d84e8c538acf9e0ce53786ec93fff7046f290d6af9914230b3e06a1d18cd"
+        }
+      ]
+    },
+    {
+      "package": "SixLabors.Fonts",
+      "version": "1.0.0",
+      "direct": false,
+      "license": "Apache-2.0",
+      "authors": "Six Labors and contributors",
+      "copyright": "Copyright © Six Labors",
+      "nugetPackageSha512": "LFQsCZlV0xlUyXAOMUo5kkSl+8zAQXXbbdwWchtk0B4o7zotZhQsQOcJUELGHdfPfm/xDAsz6hONAuV25bJaAg==",
+      "files": [
+        {
+          "path": "licenses/SixLabors.Fonts-1.0.0/LICENSE",
+          "sha256": "f38dc2765451fd2b19d7e0f47ed655f3a1cb889b28341ea6266efd75d8425a6f"
+        },
+        {
+          "path": "licenses/SixLabors.Fonts-1.0.0/sixlabors.fonts.nuspec",
+          "sha256": "dbd5856e3bbf6d25087250dbad4fe3140383dfe82610c3cce4929fbc59c7e7a8"
+        }
+      ]
+    },
+    {
+      "package": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.6",
+      "direct": false,
+      "license": "Apache-2.0",
+      "authors": "Eric Sink",
+      "copyright": "Copyright 2014-2023 SourceGear, LLC",
+      "nugetPackageSha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
+      "files": [
+        {
+          "path": "licenses/SQLitePCLRaw.bundle_e_sqlite3-2.1.6/LICENSE.TXT",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.bundle_e_sqlite3-2.1.6/NOTICE.TXT",
+          "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.bundle_e_sqlite3-2.1.6/sqlitepclraw.bundle_e_sqlite3.nuspec",
+          "sha256": "7f34e2343aa2b2cedce355e9521268fbc3b1739add6c3023ddf39d423800f5f7"
+        }
+      ]
+    },
+    {
+      "package": "SQLitePCLRaw.core",
+      "version": "2.1.6",
+      "direct": false,
+      "license": "Apache-2.0",
+      "authors": "Eric Sink",
+      "copyright": "Copyright 2014-2023 SourceGear, LLC",
+      "nugetPackageSha512": "wO6v9GeMx9CUngAet8hbO7xdm+M42p1XeJq47ogyRoYSvNSp0NGLI+MgC0bhrMk9C17MTVFlLiN6ylyExLCc5w==",
+      "files": [
+        {
+          "path": "licenses/SQLitePCLRaw.core-2.1.6/LICENSE.TXT",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.core-2.1.6/NOTICE.TXT",
+          "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.core-2.1.6/sqlitepclraw.core.nuspec",
+          "sha256": "4c7d78e1cd4dc523c2ee14f7c5c2ca40508706b1c0550aa16230b0577a1a443d"
+        }
+      ]
+    },
+    {
+      "package": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.6",
+      "direct": false,
+      "license": "Apache-2.0",
+      "authors": "Eric Sink",
+      "copyright": "Copyright 2014-2023 SourceGear, LLC",
+      "nugetPackageSha512": "2ObJJLkIUIxRpOUlZNGuD4rICpBnrBR5anjyfUFQep4hMOIeqW+XGQYzrNmHSVz5xSWZ3klSbh7sFR6UyDj68Q==",
+      "files": [
+        {
+          "path": "licenses/SQLitePCLRaw.lib.e_sqlite3-2.1.6/LICENSE.TXT",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.lib.e_sqlite3-2.1.6/NOTICE.TXT",
+          "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.lib.e_sqlite3-2.1.6/sqlitepclraw.lib.e_sqlite3.nuspec",
+          "sha256": "e0bf5debc1fe8324706b3bf7706519d0f275015e961ddea58fc9a7636c40fc9f"
+        }
+      ]
+    },
+    {
+      "package": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.6",
+      "direct": false,
+      "license": "Apache-2.0",
+      "authors": "Eric Sink",
+      "copyright": "Copyright 2014-2023 SourceGear, LLC",
+      "nugetPackageSha512": "PQ2Oq3yepLY4P7ll145P3xtx2bX8xF4PzaKPRpw9jZlKvfe4LE/saAV82inND9usn1XRpmxXk7Lal3MTI+6CNg==",
+      "files": [
+        {
+          "path": "licenses/SQLitePCLRaw.provider.e_sqlite3-2.1.6/LICENSE.TXT",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.provider.e_sqlite3-2.1.6/NOTICE.TXT",
+          "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+        },
+        {
+          "path": "licenses/SQLitePCLRaw.provider.e_sqlite3-2.1.6/sqlitepclraw.provider.e_sqlite3.nuspec",
+          "sha256": "c831d15bf36a11f746acf513492804a430d795f09123218ed100c1ca9cbd344f"
+        }
+      ]
+    },
+    {
+      "package": "System.IO.Packaging",
+      "version": "8.0.1",
+      "direct": false,
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "nugetPackageSha512": "KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
+      "files": [
+        {
+          "path": "licenses/System.IO.Packaging-8.0.1/LICENSE.TXT",
+          "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+        },
+        {
+          "path": "licenses/System.IO.Packaging-8.0.1/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "b60b2912da28eaa6518593c9e2efb5334ee062d3c42e80d8fdfa806b3dc52977"
+        },
+        {
+          "path": "licenses/System.IO.Packaging-8.0.1/system.io.packaging.nuspec",
+          "sha256": "28198c2ab50ffecd09b1403ad7315bf0406d98cab8a69258ce6a6ca2d6479c62"
+        }
+      ]
+    },
+    {
+      "package": "System.Memory",
+      "version": "4.5.3",
+      "direct": false,
+      "license": "MIT",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "nugetPackageSha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "files": [
+        {
+          "path": "licenses/System.Memory-4.5.3/LICENSE.TXT",
+          "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+        },
+        {
+          "path": "licenses/System.Memory-4.5.3/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "7864a01e2fdef7e8fdf81b906efb1466f083206affea7ba7e6dadea429754765"
+        },
+        {
+          "path": "licenses/System.Memory-4.5.3/system.memory.nuspec",
+          "sha256": "d38da361a4741fa4f1ad0c6d83489f450affdea4caefe3bcd3d3e19290b235c4"
+        }
+      ]
+    }
+  ]
+}

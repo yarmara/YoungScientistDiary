@@ -1,0 +1,122 @@
+[
+  {
+    "file": "ClosedXML-0.104.2/LICENSE",
+    "source": "https://raw.githubusercontent.com/ClosedXML/ClosedXML/3dfd3414f3aa32fa8ffee7124478ca9ac5fe6945/LICENSE",
+    "sha256": "3071658fba9a054edce74e756314ba926fe3ffe5c6622f209d21a0c8f1d2a99e"
+  },
+  {
+    "file": "ClosedXML.Parser-1.2.0/LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/ClosedXML/ClosedXML.Parser/aaf2ade77aa160d7e929088320eab562b2df6851/LICENSE.txt",
+    "sha256": "7133dfd8c1167ffa77389859013ac5bf2d184639f5a291a00d33b0b7d7b84df3"
+  },
+  {
+    "file": "DocumentFormat.OpenXml-3.1.1/LICENSE",
+    "source": "https://raw.githubusercontent.com/dotnet/Open-XML-SDK/f9e6ad7524e22b6b1f932deabc9055201b7870c0/LICENSE",
+    "sha256": "ed03ba352313a4ba7019d5bed4bd3218ac17f3e44442a3bb1aaff54dcca9a2bc"
+  },
+  {
+    "file": "DocumentFormat.OpenXml-3.1.1/NOTICE",
+    "source": "https://raw.githubusercontent.com/dotnet/Open-XML-SDK/f9e6ad7524e22b6b1f932deabc9055201b7870c0/NOTICE",
+    "sha256": "17f127daf81a23e7835b735b91c7486fbc99538102942bf1bce8d73e63a65038"
+  },
+  {
+    "file": "DocumentFormat.OpenXml.Framework-3.1.1/LICENSE",
+    "source": "https://raw.githubusercontent.com/dotnet/Open-XML-SDK/f9e6ad7524e22b6b1f932deabc9055201b7870c0/LICENSE",
+    "sha256": "ed03ba352313a4ba7019d5bed4bd3218ac17f3e44442a3bb1aaff54dcca9a2bc"
+  },
+  {
+    "file": "DocumentFormat.OpenXml.Framework-3.1.1/NOTICE",
+    "source": "https://raw.githubusercontent.com/dotnet/Open-XML-SDK/f9e6ad7524e22b6b1f932deabc9055201b7870c0/NOTICE",
+    "sha256": "17f127daf81a23e7835b735b91c7486fbc99538102942bf1bce8d73e63a65038"
+  },
+  {
+    "file": "ExcelNumberFormat-1.1.0/LICENSE",
+    "source": "https://raw.githubusercontent.com/andersnm/ExcelNumberFormat/v1.1.0/LICENSE",
+    "sha256": "6650b0063a39e7dced886e53c6dac66fcd909beb8b9abb868452c9b621fa2018"
+  },
+  {
+    "file": "MathNet.Numerics-5.0.0/LICENSE.md",
+    "source": "https://raw.githubusercontent.com/mathnet/mathnet-numerics/v5.0.0/LICENSE.md",
+    "sha256": "3f87fb0bec6467d87760555e3cb246646a51912b0e97f432c159ba6baf5738f2"
+  },
+  {
+    "file": "Microsoft.Data.Sqlite-8.0.21/LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/dotnet/efcore/bd381fa6af1f80b3b6a52739729596cd68b6f5c8/LICENSE.txt",
+    "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+  },
+  {
+    "file": "Microsoft.Data.Sqlite.Core-8.0.21/LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/dotnet/efcore/bd381fa6af1f80b3b6a52739729596cd68b6f5c8/LICENSE.txt",
+    "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+  },
+  {
+    "file": "RBush-4.0.0/LICENSE",
+    "source": "https://raw.githubusercontent.com/viceroypenguin/RBush/b8690322abac35d835baa2fdca4a3918ed77a910/LICENSE",
+    "sha256": "f6bfae3ff6477fbca0c850f115da170516b1c633a98619ea5dcc6720dcdcb288"
+  },
+  {
+    "file": "SQLitePCLRaw.bundle_e_sqlite3-2.1.6/LICENSE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/LICENSE.TXT",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "SQLitePCLRaw.bundle_e_sqlite3-2.1.6/NOTICE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/NOTICE.TXT",
+    "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+  },
+  {
+    "file": "SQLitePCLRaw.core-2.1.6/LICENSE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/LICENSE.TXT",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "SQLitePCLRaw.core-2.1.6/NOTICE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/NOTICE.TXT",
+    "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+  },
+  {
+    "file": "SQLitePCLRaw.lib.e_sqlite3-2.1.6/LICENSE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/LICENSE.TXT",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "SQLitePCLRaw.lib.e_sqlite3-2.1.6/NOTICE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/NOTICE.TXT",
+    "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+  },
+  {
+    "file": "SQLitePCLRaw.provider.e_sqlite3-2.1.6/LICENSE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/LICENSE.TXT",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "SQLitePCLRaw.provider.e_sqlite3-2.1.6/NOTICE.TXT",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.6/NOTICE.TXT",
+    "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+  },
+  {
+    "file": "SixLabors.Fonts-1.0.0/LICENSE",
+    "source": "https://raw.githubusercontent.com/SixLabors/Fonts/32bef42997adb10268369ca149777f00e4241ce9/LICENSE",
+    "sha256": "f38dc2765451fd2b19d7e0f47ed655f3a1cb889b28341ea6266efd75d8425a6f"
+  },
+  {
+    "file": "System.IO.Packaging-8.0.1/LICENSE.TXT",
+    "source": "https://api.nuget.org/v3-flatcontainer/system.io.packaging/8.0.1/system.io.packaging.8.0.1.nupkg#/LICENSE.TXT",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "System.IO.Packaging-8.0.1/THIRD-PARTY-NOTICES.TXT",
+    "source": "https://api.nuget.org/v3-flatcontainer/system.io.packaging/8.0.1/system.io.packaging.8.0.1.nupkg#/THIRD-PARTY-NOTICES.TXT",
+    "sha256": "b60b2912da28eaa6518593c9e2efb5334ee062d3c42e80d8fdfa806b3dc52977"
+  },
+  {
+    "file": "System.Memory-4.5.3/LICENSE.TXT",
+    "source": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.3/system.memory.4.5.3.nupkg#/LICENSE.TXT",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "System.Memory-4.5.3/THIRD-PARTY-NOTICES.TXT",
+    "source": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.3/system.memory.4.5.3.nupkg#/THIRD-PARTY-NOTICES.TXT",
+    "sha256": "7864a01e2fdef7e8fdf81b906efb1466f083206affea7ba7e6dadea429754765"
+  }
+]
